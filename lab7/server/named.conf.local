@@ -1,0 +1,9 @@
+zone "dnslab.com" {
+    type master;
+    file "/etc/bind/zones/named.hosts";
+};
+
+zone "20.172.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/named.rev1";
+};
